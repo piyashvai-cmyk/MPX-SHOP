@@ -1,0 +1,6 @@
+{
+  "name": "MPX SHOP",
+  "description": "MPX SHOP - Premium Gaming Products, Instant bKash/Nagad Checkout and Admin Control",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,11 +1,28 @@
-<div align="center">
+# MPX SHOP - Premium Gaming Store & Instant Checkout
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Official web application for MPX SHOP featuring Firebase Authentication, Cloud Firestore, ImgBB Payment Screenshot Upload, PWA Shortcut Installation, and Hidden Admin Panel.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 বৈশিষ্ট্যসমূহ (Features)
+- 🔒 **I AM NOT ROBOT সিকিউরিটি স্ক্রিন**: সাইটে প্রবেশের পূর্বে বট ও স্ক্র্যাপার প্রতিরোধে স্বয়ংক্রিয় ক্লাউড সিকিউরিটি যাচাই।
+- 📱 **PWA / Install Shortcut**: যেকোনো মোবাইল বা পিসিতে সরাসরি ব্রাউজার থেকে অ্যাপস হিসেবে ইনস্টলযোগ্য।
+- 🔔 **পপ-আপ নোটিস**: শপে ঢুকলে এডমিন থেকে সেট করা জরুরি নোটিশ প্রদর্শন।
+- 🔑 **লগইন মাধ্যম**: Google Continue এবং Email/Password উভয় মাধ্যমে লগইন।
+- 💳 **ইনস্ট্যান্ট পেমেন্ট গেটওয়ে**:
+  - বিকাশ ও নগদ পার্সোনাল নাম্বার কপি করার বাটন সহ "নাম্বারটি কপি করে সেন্ড মানি করবেন" নির্দেশনা।
+  - প্রেরকের নাম্বার (Sender Number) ও TrxID সাবমিশন।
+  - **ImgBB API** (`de969340a591ad8856bb48efe4a3d4d8`) দিয়ে সরাসরি পেমেন্ট স্ক্রিনশট ক্লাউড আপলোড।
+  - ক্রেতার সাথে যোগাযোগের টেলিগ্রাম / হোয়াটসঅ্যাপ আইডি সংরক্ষণ।
+- 📞 **সরাসরি যোগাযোগ বাটন**: প্রতিটি পণ্যের নিচে এক ক্লিকে হোয়াটসঅ্যাপ ও টেলিগ্রামে প্রি-ফিল্ড মেসেজ সহ যোগাযোগের ব্যবস্থা।
+- 🛡️ **হিডেন অ্যাডমিন প্যানেল (`/admin4209`)**:
+  - ইউজারনেম: `MPX10X7X`
+  - পাসওয়ার্ড: `MPX7X10X`
+  - অর্ডার অ্যাপ্রুভ/রিজেক্ট এবং ImgBB স্ক্রিনশট প্রিভিউ।
+  - প্রোডাক্ট যোগ, এডিট (Sold সংখ্যা, দাম, স্ট্যাটাস) ও ডিলিট।
+  - বিকাশ, নগদ নাম্বার, হোয়াটসঅ্যাপ ও টেলিগ্রাম লিংক পরিবর্তন।
+  - পপ-আপ নোটিস অন/অফ এবং লেখা পরিবর্তন।
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## 🌐 Vercel-এ হোস্ট করার নিয়ম
+1. এই প্রোজেক্টের সমস্ত ফাইল আপনার **GitHub** অ্যাকাউন্টে পুশ (Push) করুন।
+2. [Vercel.com](https://vercel.com)-এ যান এবং GitHub রিপোজিটরিটি ইমপোর্ট করুন।
+3. Framework Preset হিসেবে **Vite** সিলেক্ট করে **Deploy** দিন।
+4. সাইট চালু হয়ে গেলে অ্যাডমিন প্যানেলে ঢুকতে ব্রাউজারে লিখুন: `https://your-domain.vercel.app/admin4209`
